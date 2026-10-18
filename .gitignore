@@ -1,0 +1,13 @@
+# dependencies and build output
+node_modules/
+dist/
+
+# old Create React App starter projects that live in this folder
+my-portfolio/
+my-react-app/
+
+# local tooling
+.claude/
+.DS_Store
+*.log
+.env*
