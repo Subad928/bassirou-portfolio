@@ -13,6 +13,7 @@ import {
   work,
   volunteering,
   skills,
+  languages,
   activities,
   availability,
 } from "./data/resume";
@@ -284,7 +285,13 @@ export default function App() {
               ))}
             </div>
             <div className="hud-panel__col">
-              <p className="hud-panel__title">// Outside of class</p>
+              <p className="hud-panel__title">// Languages</p>
+              <ul className="tags tags--code">
+                {languages.map((l) => (
+                  <li key={l}>{l}</li>
+                ))}
+              </ul>
+              <p className="hud-panel__title hud-panel__title--gap">// Outside of class</p>
               <ul className="tags">
                 {activities.map((a) => (
                   <li key={a}>{a}</li>

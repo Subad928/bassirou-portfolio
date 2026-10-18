@@ -1411,6 +1411,15 @@ ul {
   box-shadow: 0 0 12px -2px rgba(46, 230, 255, 0.7), inset 0 0 10px -4px rgba(46, 230, 255, 0.8);
 }
 
+/* languages: terminal-green, in monospace like code */
+.tags--code li,
+.tags--code li:nth-child(even) {
+  font-family: var(--mono);
+  border-color: #4ce38a;
+  color: #dcffe9;
+  box-shadow: 0 0 12px -2px rgba(76, 227, 138, 0.7), inset 0 0 10px -4px rgba(76, 227, 138, 0.8);
+}
+
 .tags--gold li,
 .tags--gold li:nth-child(even) {
   border-color: var(--gold);

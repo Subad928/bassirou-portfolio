@@ -127,12 +127,15 @@ export const volunteering = [
 // Grouped the same way as the Skills section of the resume.
 export const skills = [
   { group: "Work", items: ["Customer service", "Food safety", "Inventory & stocking", "Teamwork"] },
-  { group: "Technical", items: ["Website design & development", "React", "Computer proficiency"] },
+  { group: "Technical", items: ["Website design & development", "Computer proficiency"] },
   {
     group: "Personal",
     items: ["Public speaking", "Leadership", "Problem solving", "Creativity", "Reliability", "Fast learner"],
   },
 ];
+
+// Programming, markup and styling languages.
+export const languages = ["JavaScript", "Python", "Java", "C++", "HTML", "CSS"];
 
 export const activities = [
   "Tennis",
