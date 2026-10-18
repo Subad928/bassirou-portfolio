@@ -115,7 +115,7 @@ export const volunteering = [
     text: "Helped younger students write letters to elderly residents in nursing homes, with patience and empathy.",
   },
   {
-    org: "Al-Maun Day of Dignity",
+    org: "Al-Maa'uun Day of Dignity",
     date: "Community",
     logo: "/art/logos/almaauun.png",
     discBg: "#fff8ee",
