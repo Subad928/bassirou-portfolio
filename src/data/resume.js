@@ -20,7 +20,7 @@ export const education = {
   location: "Minneapolis, MN",
   grade: "12th Grade",
   graduation: "2027",
-  program: "Full Higher Level (HL) Course Load",
+  program: "Full International Baccalaureate (IB) Higher Level Course Load",
 };
 
 // Clubs and student government, newest first.
