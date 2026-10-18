@@ -78,6 +78,8 @@ export const work = [
     points: [
       "Cooperating with a diverse team through understanding, leadership, and efficiency",
       "Working in customer service and preparing food (ice cream, burgers, etc.)",
+      "Trained in food safety (allergies, chemicals, germs, etc.)",
+      "Experience in stocking and logging product shipments",
     ],
   },
   {
