@@ -269,14 +269,19 @@ export default function App() {
           <div className="hud-panel" data-reveal>
             <div className="hud-panel__col">
               <p className="hud-panel__title">// Skills loaded</p>
-              <ul className="readout">
-                {skills.map((s) => (
-                  <li key={s}>
-                    <span>{s}</span>
-                    <b>OK</b>
-                  </li>
-                ))}
-              </ul>
+              {skills.map(({ group, items }) => (
+                <div key={group} className="readout-group">
+                  <p className="readout-group__name">{group}</p>
+                  <ul className="readout">
+                    {items.map((s) => (
+                      <li key={s}>
+                        <span>{s}</span>
+                        <b>OK</b>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
             <div className="hud-panel__col">
               <p className="hud-panel__title">// Outside of class</p>

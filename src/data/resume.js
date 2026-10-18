@@ -124,15 +124,14 @@ export const volunteering = [
   },
 ];
 
+// Grouped the same way as the Skills section of the resume.
 export const skills = [
-  "Customer service & communication",
-  "Leadership & teamwork",
-  "Software development",
-  "Technology & computers",
-  "Problem solving & critical thinking",
-  "Creativity & design",
-  "Reliable, punctual, hardworking",
-  "Fast learner, strong work ethic",
+  { group: "Work", items: ["Customer service", "Food safety", "Inventory & stocking", "Teamwork"] },
+  { group: "Technical", items: ["Website design & development", "React", "Computer proficiency"] },
+  {
+    group: "Personal",
+    items: ["Public speaking", "Leadership", "Problem solving", "Creativity", "Reliability", "Fast learner"],
+  },
 ];
 
 export const activities = [

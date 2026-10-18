@@ -1362,6 +1362,19 @@ ul {
   margin-top: 30px;
 }
 
+.readout-group + .readout-group {
+  margin-top: 18px;
+}
+
+.readout-group__name {
+  margin-bottom: 4px;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--pink);
+}
+
 .readout li {
   display: flex;
   justify-content: space-between;
